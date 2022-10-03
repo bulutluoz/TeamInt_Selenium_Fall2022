@@ -31,7 +31,7 @@ public class C01_firstClass {
               tum jar dosyalarini secip
               apply ve Ok tuslarina basin
            7-  src/main/java altinda bir class olusturun
-           9- class'da main method olusturup yukaridaki kodlari yazin
+           8- class'da main method olusturup yukaridaki kodlari yazin
 
              NOT : 9.satirdaki 2.parametre windows ve mac icin farklidir
 
