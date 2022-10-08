@@ -14,6 +14,8 @@ public class C05_DriverManageMethods {
         WebDriver driver= new ChromeDriver();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+
+
         driver.manage().window().maximize();
 
 
@@ -38,10 +40,16 @@ public class C05_DriverManageMethods {
         Thread.sleep(2000);
 
         driver.manage().window().minimize();
+
         System.out.println("minimize position "+ driver.manage().window().getPosition());
         System.out.println("minimize size"+driver.manage().window().getSize());
         Thread.sleep(2000);
 
         driver.close();
+
+        driver.manage().window().getPosition();
+        driver.manage().window().getSize();
+
+
     }
 }

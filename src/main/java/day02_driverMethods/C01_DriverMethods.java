@@ -10,6 +10,7 @@ public class C01_DriverMethods {
         System.setProperty("webdriver.chrome.driver","src/resources/chromedriver");
 
         WebDriver driver= new ChromeDriver();
+
         // driver objesi olusturunca Selenium webDriver
         // bilgisayarimizdaki chrome browser'dan bir bos sayfa actirir
         // eger firefox veya safari gibi baska bir browser kullanmak istersek

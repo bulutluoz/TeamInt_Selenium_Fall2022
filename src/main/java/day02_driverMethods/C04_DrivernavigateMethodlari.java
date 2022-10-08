@@ -17,15 +17,19 @@ public class C04_DrivernavigateMethodlari {
         Thread.sleep(2000);
 
         // geri amazona donelim
+
         driver.navigate().back();
+
         Thread.sleep(2000);
 
         // yeniden youtube'a gidelim
+
         driver.navigate().forward();
+
         Thread.sleep(2000);
 
         driver.navigate().refresh();
 
-        driver.close();
+        driver.quit();
     }
 }

@@ -16,10 +16,13 @@ public class C02_IlkTest {
 
         driver.get("https://www.amazon.com");
 
-        String expectedTitleIcerik="amazon";
+
         String expectedUrlIcerik="Amazon";
 
         String actualUrl= driver.getCurrentUrl();
+
+
+        String expectedTitleIcerik="amazon";
         String actualTitle= driver.getTitle();
 
         // url test yapalim
@@ -41,7 +44,7 @@ public class C02_IlkTest {
             System.out.println("Actual Title : " + actualTitle);
             System.out.println("Actual title aranan " + expectedTitleIcerik + " kelimesini icermiyor");
         }
-        driver.quit();
+        // driver.quit();
         /*
         driver.close sadece acik olan browser'i kapatir
         driver.quit ise test calisirken acilan tum browser'lari kapatir
