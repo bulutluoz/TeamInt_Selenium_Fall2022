@@ -21,8 +21,10 @@ public class C01_findElement {
         // Bir web sitesinde herhangi bir web elementi kullanabilmek icin
         // o web elementi kodlarimiza tanitmamiz gerekir
 
-        // WebElement amazonAramaKutusu = driver.findElement(By.id("twotabsearchtextbox"));
+        //WebElement amazonAramaKutusu = driver.findElement(By.id("twotabsearchtextbox"));
+
         WebElement amazonAramaKutusu= driver.findElement(By.name("field-keywords"));
+
         amazonAramaKutusu.sendKeys("Nutella" + Keys.ENTER);
 
         Thread.sleep(5000);
